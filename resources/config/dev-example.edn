@@ -1,0 +1,4 @@
+{:jdbc-database-url "jdbc:postgresql://localhost/postgres"
+ :doordash-email "<email>"
+ :doordash-password "<password>"
+ :yelp-api-key "<api-key>"}

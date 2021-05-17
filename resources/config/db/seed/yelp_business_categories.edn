@@ -1,0 +1,4 @@
+(#:yelp-business-categories{:id #uuid "9552d81c-4cb6-4835-8291-a746516f9f8a"
+                            :yelp-id "mGTS2oVPE94uLvQvBwC2Kg"
+                            :title "Foo"
+                            :rank 0})

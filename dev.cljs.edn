@@ -1,0 +1,6 @@
+^{:open-url false
+  :watch-dirs ["src"]
+  :css-dirs ["resources/public/css"]
+  :hawk-options {:watcher :polling}}
+{:main rads.food.browser
+ :optimizations :none}

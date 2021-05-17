@@ -1,0 +1,6 @@
+{
+  "name": "rads.food",
+  "description": "",
+  "image": "heroku/clojure",
+  "addons": [ "heroku-postgresql" ]
+}

@@ -1,0 +1,131 @@
+@import 'normalize.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header :nth-child(1) {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.header :nth-child(2) {
+  color: #999;
+}
+
+.header {
+  padding: 18px 0 0 18px;
+}
+
+body {
+  font-family: avenir next, avenir, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 400;
+  margin-top: 0;
+  font-family: baskerville, serif;
+  font-size: 24px;
+  color: #666;
+}
+
+h2 {
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  font-size: 36px;
+  text-transform: lowercase;
+  font-family: baskerville;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.store-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 18px;
+  text-align: center;
+}
+
+.store-item {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 9px;
+  margin-right: 9px;
+  background-color: #eee;
+  padding: 9px;
+  border: 1px solid;
+  border-color: #ddd #aaa #aaa #ddd;
+  width: 250px;
+  vertical-align: top;
+  height: 450px;
+}
+
+.store-name {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 18px;
+  margin-bottom: 9px;
+  color: #000;
+}
+
+.store-rating {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.store-review-count {
+  display: inline-block;
+}
+
+.stars-5 {
+  background-color: lightgreen;
+}
+
+.stars-5 .stars {
+  color: #666;
+}
+
+.stars-4-5 {
+  background-color: deepskyblue;
+}
+
+.stars-4-5 .stars {
+  color: #666;
+}
+
+.stars-4 {
+  background-color: mediumpurple;
+  color: #eee;
+}
+
+.stars-4 .stars {
+  color: #ccc;
+}
+
+.stars-4 .store-name {
+  color: #eee;
+}
+
+.stars-3-5 {
+  background-color: indigo;
+  color: white;
+}
+
+.stars-3-5 .stars {
+  color: #ccc;
+}
+
+.stars-3-5 .store-name {
+  color: white;
+}

@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/rads.food-standalone.jar clojure.main -m rads.food.server.web
